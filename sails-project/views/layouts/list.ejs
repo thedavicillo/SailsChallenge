@@ -1,0 +1,15 @@
+<h1 class="display-4">MSGs list</h1>
+<table class"table table-striped">
+<thead>
+	<th>Id</th>
+	<th>Msg</th>
+</thead>
+<tbody>
+	<% messages.forEach(function(){%>
+		<tr>
+			<td><%= messages.id %></td>
+			<td><%= messages.txt %></td>
+		</tr>
+	<% }) %>
+</tbody>
+</table>
